@@ -1,0 +1,125 @@
+========================================================
+  BRADSTONE PLAYWRIGHT AUTOMATION — ALL COMMANDS
+========================================================
+
+
+--------------------------------------------------------
+  1. FIRST TIME SETUP
+--------------------------------------------------------
+
+Install dependencies:
+    npm install
+
+Install Playwright browsers (Chromium, Firefox, WebKit):
+    npx playwright install
+
+
+--------------------------------------------------------
+  2. RUN TEST SCENARIOS
+--------------------------------------------------------
+
+Run ALL 4 scenarios together:
+    npm test
+
+Run Scenario 1 - Login only:
+    npx playwright test tests/login.spec.js
+
+Run Scenario 2 - Create Account only:
+    npx playwright test tests/create_account.spec.js
+
+Run Scenario 3 - Login with Checkout only:
+    npx playwright test tests/login_checkout.spec.js
+
+Run Scenario 4 - Guest Checkout only:
+    npx playwright test tests/guest_checkout.spec.js
+
+
+--------------------------------------------------------
+  3. EXTRA RUN OPTIONS
+--------------------------------------------------------
+
+Run tests in headed mode (watch browser live):
+    npx playwright test --headed
+
+Run with Playwright UI (interactive test runner):
+    npx playwright test --ui
+
+Run in debug mode (step by step):
+    npx playwright test --debug
+
+Run a specific scenario in debug mode:
+    npx playwright test tests/login.spec.js --debug
+
+Show last test report in browser:
+    npx playwright show-report
+
+Show trace for a failed test:
+    npx playwright show-trace test-results/<folder-name>/trace.zip
+
+
+--------------------------------------------------------
+  4. GITHUB COMMANDS
+--------------------------------------------------------
+
+--- Clone the repo (first time on a new machine) ---
+    git clone https://github.com/deepalilondhe-blip/Bradstone.git
+    cd Bradstone
+
+--- Check status of changed files ---
+    git status
+
+--- Add all changed files ---
+    git add .
+
+--- Add a specific file ---
+    git add tests/login.spec.js
+
+--- Commit changes with a message ---
+    git commit -m "your message here"
+
+--- Push to GitHub ---
+    git push origin main
+
+--- Pull latest code from GitHub ---
+    git pull origin main
+
+--- Check commit history ---
+    git log --oneline
+
+--- Check which remote repo is linked ---
+    git remote -v
+
+
+--------------------------------------------------------
+  5. SCREENSHOTS LOCATION (saved locally only)
+--------------------------------------------------------
+
+Login screenshots:
+    C:\Bradstone\screenshots\login\
+
+Create Account screenshots:
+    C:\Bradstone\screenshots\create_account\
+
+Login with Checkout screenshots:
+    C:\Bradstone\screenshots\login_checkout\
+
+Guest Checkout screenshots:
+    C:\Bradstone\screenshots\guest_checkout\
+
+Note: Screenshots are saved locally only.
+      They are NOT pushed to GitHub (.gitignore excludes them).
+
+
+--------------------------------------------------------
+  6. TEST CREDENTIALS
+--------------------------------------------------------
+
+Email    : ilfas.mansuri@bytestechnolab.com
+Password : Smart@123
+
+Site URL : https://mcstaging.bradstone.com/homeowner/
+
+
+========================================================
+  END OF FILE
+========================================================
