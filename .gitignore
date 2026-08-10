@@ -5,12 +5,12 @@ node_modules/
 test-results/
 playwright-report/
 
-# Screenshots (optional - remove if you want these in repo)
-# screenshots/
+# Screenshots — test run artifacts, not source code
+screenshots/
+*.png
 
-# Scratch files
+# Scratch/debug files
 scratch_check.js
-login_result_scratch.png
 
 # OS files
 .DS_Store
