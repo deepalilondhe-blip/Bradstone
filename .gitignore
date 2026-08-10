@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+
+# Screenshots (optional - remove if you want these in repo)
+# screenshots/
+
+# Scratch files
+scratch_check.js
+login_result_scratch.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
